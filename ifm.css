@@ -237,3 +237,117 @@ footer p span{
 .texto-footer{
     margin-bottom: 70px;
 }
+@media screen and (max-width: 1220px){
+  body{
+      margin: 0%;
+      padding: 0%;
+  }
+  h1{
+      font-size: 30px;
+  }
+  header{
+      height: 70px;
+      width: 100%;
+      padding: 0;
+  }
+  header ul li a{
+      font-size: 0px;
+  }
+  .logo{
+      width: 30px;
+      margin-top: 20px;
+      margin-left: 30px;
+  }
+  .btn{
+      width: 80px !important;
+      height: 30px !important;
+      margin-bottom: 20px;
+  }
+  header span{
+      font-size: 15px !important;
+      margin-bottom: 20px;
+  }
+  .container-hea span{
+      font-size: 10px !important;
+      width: 80px !important;
+      height: 30px !important;
+      margin-bottom: 20px;
+  }
+  svg{
+      width: 80px !important;
+      height: 30px !important;
+      margin-bottom: 20px;
+  }
+  
+  .container-hea a{
+      width: 80px !important;
+      height: 30px !important;
+      margin-bottom: 20px;
+  }
+  .center-hea{
+      width: 80px !important;
+      height: 30px !important;
+      margin-bottom: 20px;
+  }
+  .container-hea{
+      margin-left: 155px !important;
+      width: 80px !important;
+      height: 30px !important;
+      align-items: center !important;
+      margin-bottom: 20px;
+  }
+  .btn-hea{
+      width: 80px !important;
+      height: 30px !important;
+      margin-bottom: 20px;
+  }
+  /* PRIMEIRA PARTE */
+  .primeira{
+    padding-top: 30px;
+    align-items: center;
+  }
+  p{
+    font-size: 12px;
+    padding: 0px;
+  }
+  .primeira img{
+    width: 190px;
+    border-radius: 10px;
+  }
+  /* SEGUNDA PARTE */
+  .segunda{
+    height: 800px;
+  }
+  .segunda h2{
+    font-size: 30px;
+  }
+  .carrossel-container {
+
+    width: 300px;
+    margin: 50px auto;
+}
+.imagem img {
+    width: 300px;
+    border-radius: 20px;
+}
+  /* FOOTER */
+
+  .logo-footer{
+      width: 100px;
+      margin: 50px;
+      transition: 2s;
+  }
+  .logo-footer:hover{
+      width: 130px !important;
+  }
+  footer p{
+      color: aqua;    
+  }
+  footer p span{
+      color: rgb(68, 91, 112);
+      font-size: 20px;
+  }
+  .texto-footer{
+      margin-bottom: 70px;
+  }
+}
